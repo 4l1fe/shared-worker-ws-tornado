@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="files" multiple/>
+    </form>
+    <button>Submit</button>
+
+    <div id="client_id"></div>
+    <br/>
+    <div id="received"></div>
+    <br/>
+    <div id="logs"></div>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.2/js.cookie.min.js"></script>
+    <script src="static/main.js"></script>
+</body>
+</html>
